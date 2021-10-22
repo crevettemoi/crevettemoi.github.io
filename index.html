@@ -1,91 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>A Beginner's Personal Website</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/styles.css">
+        <title>A Beginner's Personal Site</title>
     </head>
     
     <body>
-        <!-- Header -->
-        <table cellspacing="10">
-            <tr>
-                <td>
-                    <img src="images/self-pic.jpg" alt="Jeffrey's Profile Picture" width="200" height="">
-                </td>
-                <td align="left">
-                    <h1>Jeffrey Antonius Saputra</h1>
-                    <em>
-                        <p>Cyber security student and enthusiast at <strong>BINUS University</strong></p>     
-                    </em>
-                    <!-- TryHackMe Badge ID -->
-                    <script src="https://tryhackme.com/badge/337358"></script>
-                </td>
-            </tr>
-        </table>
-        
-        <h4>Welcome to my personal website that I make as a part of my self development!</h4>
+        <section class="header">
+            <div class="header-wrap">
+                <hr class="top-hr">
+                <img class="prof-pic" src="images/self-pic.jpg" alt="profile-pic">
+                <hr class="bottom-hr">
+                <div class="header-name">Jeffrey Antonius Saputra</div>
+                <div class="header-desc">Welcome to my website that I make as a part of my self development!</div>
+                <a href="https://tryhackme.com/p/th0m" target="_blank">
+                    <img class="thm-badge" src="https://tryhackme-badges.s3.amazonaws.com/th0m.png" alt="TryHackMe">
+                </a>
+                <a href="https://www.linkedin.com/in/jeffrey-antonius" target="_blank">
+                    <img class="linkedin" src="images/linkedin-logo-png-1825.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.instagram.com/antoniusjeffrey" target="_blank">
+                    <img class="instagram" src="images/logo-ig-png-instagram-logo-camel-productions-website-25.png" alt="Instagram">
+                </a>
+            </div>
+        </section>
 
-        <p>
-            I am a cyber security student that have the passion to learn and explore. Other than learning, I like to ponder and dream about
-            the things that I want to achieve in the cyber security industry. Be it traveling around the world while conducting penetration
-            testing or giving some kind of "TEDTalk" about cyber security. Thinking about it motivates me and make me cannot wait for the
-            future to unfold.
-        </p>
+        <section class="middle">
+            <div class="about-wrap">
 
-        <p>
-            I have reached the top 1% on TryHackMe and have a little bit of experience thanks to the hands-on lab that are
-            provided by TryHackMe. For any inquiries or more information, you can contact me via 
-            <a href="https://www.linkedin.com/in/jeffrey-antonius" target="_blank">LinkedIn</a> or my email antoniusjeffrey01@gmail.com
-        </p>
-        
-        <hr>
-
-        <!-- Certificates -->
-        <h3>Certificates</h3>
-        <ul>
-            <li>SoloLearn's <a href="https://www.sololearn.com/certificates/course/en/22854022/1073/landscape/png" target="_blank">Python Core</a></li>
-            <li>TryHackMe's <a href="images/THM-9U8PKGG8XY.png" target="_blank">Pre Security Learning Path</a></li>
-            <li>TryHackMe's <a href="images/THM-PTKS1QTCY8.png" target="_blank">Complete Beginner Learning Path</a></li>
-            <li>TryHackMe's <a href="images/THM-TBFV8POJRJ.png" target="_blank">Web Fundamentals Learning Path</a></li>
-        </ul>
-
-        <hr>
-
-        <!-- Experiences Table-->
-        <h3>Experiences</h3>
-        <table border="1" cellspacing="2">
-            <thead>
-                <tr>
-                    <th style="width: 100px;">Year</th>
-                    <th>Experience</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td align="center">2019 - 2020</td>
-                    <td>BSSC 10th Presidency: Staff of Art Division</td>
-                </tr>
-                <tr>
-                    <td align="center">2017 - 2018</td>
-                    <td>Darma Yudha Pekanbaru Student Council: Coordinator of Creativity, Skillfullness and Entrepreneurship Division</td>
-                </tr>
-                <tr>
-                    <td align="center">2016 - 2017</td>
-                    <td>Darma Yudha Pekanbaru Student Council: Member</td>
-                </tr>
-            </tbody>           
-            <tfoot>
-            </tfoot>
-        </table>
-
-        <hr>
-
-        <!-- Contacts -->
-        <h3>Other ways to reach me</h3>
-        <h4>
-            <a href="https://www.instagram.com/antoniusjeffrey/" target="_blank">Instagram</a>&ensp;
-            <a href="https://github.com/crevettemoi" target="_blank">Github</a>&ensp;
-        </h4>
-        
+            </div>
+        </section>
     </body>
 </html>

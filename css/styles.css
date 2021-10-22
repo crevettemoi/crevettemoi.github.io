@@ -1,22 +1,82 @@
 body{
-    background-color: #D9CAB3;
+    margin: 0%;
+    overflow-x: hidden;
+}
+.header-wrap{
+    margin: 0%;
+    background-color: #1B262C;
+    width: 100vw;
+    height: 100vh;
+}
+.top-hr{
+    position: absolute;
+    top: 2%;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 1%;
+    background: white;
+}
+.prof-pic{
+    width: 25%;
+    border-radius: 30%;
+    box-shadow: 5px 5px 5px #BBE1FA;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 10%;
+}
+.bottom-hr{
+    position: absolute;
+    bottom: 2%;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 1%;
+    background: white;
 }
 
-hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #6D9886;
-    border-width: 5px;
+.header-name{
+    font-size: 5vw;
+    color: cornsilk;
+    position: absolute;
+    right: 5%;
+    top: 30%;
 }
 
-h1{
-    color: #212121;
+.header-desc{
+    font-size: 2vw;
+    font-style: italic;
+    color: honeydew;
+    position: absolute;
+    right: 5%;
+    top: 45%;
 }
 
-h3{
-    color: #212121;
+.thm-badge{
+    position: absolute;
+    width: 21vw;
+    right: 5%;
+    top: 55%;
 }
 
-h4{
-    color: #212121;
+.linkedin{
+    position: absolute;
+    right: 28%;
+    top: 55%;
+    width: 5vw;
+}
+
+.instagram{
+    position: absolute;
+    right: 35%;
+    top: 54%;
+    width: 6vw;
+}
+
+.about-wrap{
+    background: #0F4C75;
+    display: block;
+    width: 100vw;
+    height: 100vh;
 }
