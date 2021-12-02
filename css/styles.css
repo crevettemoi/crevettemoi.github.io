@@ -69,19 +69,25 @@ em{
 .thm-badge{
     position: absolute;
     right: 5%;
-    top: 55%;
+    top: 70%;
 }
 .linkedin{
     position: absolute;
-    right: 27%;
+    right: 5%;
     top: 55%;
     width: 5vw;
 }
 .instagram{
     position: absolute;
-    right: 34%;
-    top: 54%;
-    width: 6vw;
+    right: 15%;
+    top: 55%;
+    width: 5vw;
+}
+.writeups{
+    position: absolute;
+    right: 25%;
+    top: 55%;
+    width: 5vw;
 }
 .about-bg{
     position: relative;
